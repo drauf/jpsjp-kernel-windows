@@ -19,8 +19,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Inf Include="jpsj.inf">
-      <Filter>Driver Files</Filter>
-    </Inf>
-  </ItemGroup>  
+    <ClInclude Include="Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Csgo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
